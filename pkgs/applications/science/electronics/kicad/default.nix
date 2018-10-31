@@ -13,7 +13,7 @@ with lib;
 stdenv.mkDerivation rec {
   name = "kicad-${version}";
   series = "5.0";
-  version = "5.0.0";
+  version = "5.0.1";
 
   src = fetchurl {
     url = "https://launchpad.net/kicad/${series}/${version}/+download/kicad-${version}.tar.xz";
